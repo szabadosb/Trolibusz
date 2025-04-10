@@ -28,3 +28,21 @@ function fel() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 } 
+
+
+/*
+document.addEventListener("DOMContentLoaded", function() {
+  const felGomb = document.getElementById("felGomb");
+
+  
+  felGomb.addEventListener("mouseover", function() {
+    felGomb.style.backgroundColor = "#555";
+  });
+
+ 
+  felGomb.addEventListener("mouseout", function() {
+    felGomb.style.backgroundColor = ""; 
+  });
+});
+*/
+
