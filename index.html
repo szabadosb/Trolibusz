@@ -184,13 +184,16 @@
             üzemeltet.
             A hálózat hossaz 75,5km, a vonalak száma 16, összesen 172 megállóval.</p>
           <p>Az alábbi űrlapon megnézheti a kétszámjegyű járatszámok viszonylatait:</p>
-          <form method="post">
+
+          <form method="post" id="jaratviszonylatok">
             <p>Járatszám:
               <br>
-              <select onclick="vegallomasKiiras(this.value)">
+              <select onchange="vegallomasKiiras(this.value)">
+
                 <script>
-                  vegallomasNevek.forEach(jaratKiiras);
+                  vegallomasNevek.forEach(jaratKiiras) "id="jaratSzam"";
                 </script>
+
               </select>
             </p>
             <p>A járat végállomásai:<br>
@@ -199,6 +202,7 @@
               </b>
             </p>
           </form>
+
         </div>
       </div>
       <button onclick="fel()" id="felGomb" title="Az oldal tetejére">Fel</button>
