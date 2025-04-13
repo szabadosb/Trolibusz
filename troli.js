@@ -12,7 +12,7 @@ vegallomasNevek["79"] = "Keleti pályaudvar - Kárpát utca";
 vegallomasNevek["80"] = "Keleti pályaudvar - Örs vezér tere";
 vegallomasNevek["81"] = "Örs vezér tere - Fischer István utca";
 vegallomasNevek["82"] = "Uzsoki Utcai Kórház - Örs vezér tere";
-vegallomasnevek["83"] = "Fővám tér - Orczy tér" 
+vegallomasNevek["83"] = "Fővám tér - Orczy tér";
 
 
 function jaratKiiras(elem, index){
